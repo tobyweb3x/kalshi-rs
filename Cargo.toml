@@ -1,6 +1,6 @@
 [package]
 name = "kalshi-rs"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 
 license = "MIT"
@@ -36,5 +36,8 @@ walkdir = "2"
 tokio-tungstenite = {version = "0.27.0", features = ["native-tls"]}
 futures-util = "0.3.31"
 governor = "0.10.4"
+
+[dev-dependencies]
+rust_decimal = "1.40.0"
 
 
